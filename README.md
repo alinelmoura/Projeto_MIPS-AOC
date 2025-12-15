@@ -1,1 +1,3 @@
 # Projeto_MIPS-AOC
+
+Este projeto apresenta o desenvolvimento de um simulador de sistema embarcado para o monitoramento e prevenção de enchentes, implementado em linguagem Assembly MIPS. O sistema simula uma estação remota capaz de coletar dados de sensores de nível da água e umidade do solo, processando essas informações em baixo nível. Uma máquina de estados classifica o risco de inundação em diferentes níveis. Além disso, a análise dos dados é realizada por meio do cálculo da média móvel das últimas cinco leituras, utilizando um vetor circular. O sistema aciona alertas visuais e sonoros conforme a gravidade da situação. A aplicação foi desenvolvida e testada no simulador MARS, evidenciando o uso de registradores, controle de fluxo e manipulação de memória.
